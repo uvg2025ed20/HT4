@@ -8,6 +8,6 @@ package uvg.edu;
  *
  * A double linked list implementation extending SimpleLinkedList.
  */
-class DoubleLinkedList<T> extends SimpleLinkedList<T> {
+class LinkListDoub<T> extends LinkListSimp<T> {
     // Additional methods can be added here if needed.
 }

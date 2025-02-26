@@ -1,7 +1,6 @@
 package uvg.edu;
 
 import java.io.BufferedReader;
-import java.io.FileReader;
 import java.util.Scanner;
 import java.io.IOException;
 import java.io.InputStream;
@@ -20,8 +19,8 @@ public class App {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Select stack implementation (arraylist/vector/list):");
         String stackType = scanner.nextLine();
-        uvg.edu.List<Integer> list = stackType.equals("list") ? ListFactory.getList("simple") : null;
-        Stack<Integer> stack = StackFactory.getStack(stackType, list);
+        IList<Integer> list = stackType.equals("list") ? ListFactoryImp.getList("simple") : null;
+        IStack<Integer> stack = StackFact.getStack(stackType, list);
 
         Calculator calc = Calculator.getInstance();
         InputStream inputStream = App.class.getResourceAsStream("./datos.txt");

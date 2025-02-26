@@ -9,14 +9,14 @@ package uvg.edu;
  * Stack implementation using a List.
  */
 class ListStack<T> extends AbstractStack<T> {
-    private uvg.edu.List<T> list;
+    private IList<T> list;
 
     /**
      * Constructs a ListStack with the specified list.
      *
      * @param list the list to use as the underlying data structure
      */
-    public ListStack(uvg.edu.List<T> list) {
+    public ListStack(IList<T> list) {
         this.list = list;
     }
 

@@ -8,7 +8,7 @@ package uvg.edu;
  *
  * Factory class for creating instances of different Stack types.
  */
-class StackFactory {
+class StackFact {
     /**
      * Gets an instance of Stack based on the specified type.
      *
@@ -17,10 +17,10 @@ class StackFactory {
      * @return an instance of Stack
      * @throws IllegalArgumentException if the Stack type is invalid
      */
-    public static <T> Stack<T> getStack(String type, uvg.edu.List<T> list) {
+    public static <T> IStack<T> getStack(String type, IList<T> list) {
         switch (type) {
             case "arraylist": return new ArrayListStack<>();
-            case "vector": return new VectorStack<>();
+            case "vector": return new StackVec<>();
             case "list": return new ListStack<>(list);
             default: throw new IllegalArgumentException("Invalid Stack type");
         }

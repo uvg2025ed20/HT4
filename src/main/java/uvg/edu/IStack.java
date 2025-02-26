@@ -8,7 +8,7 @@ package uvg.edu;
  *
  * Interface defining the basic operations of a Stack.
  */
-interface Stack<T> {
+interface IStack<T> {
     /**
      * Adds an element to the Stack.
      *

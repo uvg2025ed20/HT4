@@ -8,7 +8,7 @@ package uvg.edu;
  *
  * Interface defining the basic operations of a List.
  */
-interface List<T> {
+interface IList<T> {
     /**
      * Adds an element to the List.
      *

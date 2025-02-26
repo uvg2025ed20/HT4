@@ -15,14 +15,14 @@ import static org.junit.Assert.*;
 public class AppTest {
 
     private ListStack<Integer> listStack;
-    private VectorStack<Integer> vectorStack;
+    private StackVec<Integer> vectorStack;
     private ArrayListStack<Integer> arrayListStack;
     private Calculator calculator;
 
     @Before
     public void setUp() {
-        listStack = new ListStack<>(new SimpleLinkedList<>());
-        vectorStack = new VectorStack<>();
+        listStack = new ListStack<>(new LinkListSimp<>());
+        vectorStack = new StackVec<>();
         arrayListStack = new ArrayListStack<>();
         calculator = Calculator.getInstance();
     }

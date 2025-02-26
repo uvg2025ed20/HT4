@@ -10,7 +10,7 @@ import java.util.LinkedList;
  *
  * A simple linked list implementation of the List interface.
  */
-class SimpleLinkedList<T> implements List<T> {
+class LinkListSimp<T> implements IList<T> {
     private LinkedList<T> list = new LinkedList<>();
 
     @Override

@@ -10,7 +10,7 @@ import java.util.Vector;
  *
  * Stack implementation using a Vector.
  */
-class VectorStack<T> extends AbstractStack<T> {
+class StackVec<T> extends AbstractStack<T> {
     private Vector<T> stack = new Vector<>();
 
     @Override
