@@ -5,4 +5,5 @@ interface List<T> {
     T remove(int index);
     T get(int index);
     boolean isEmpty();
+    int size(); // Agregar este método
 }
