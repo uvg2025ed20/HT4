@@ -1,12 +1,8 @@
 uvg\edu\AbstractStack.class
-uvg\edu\Stack.class
-uvg\edu\SimpleLinkedList.class
-uvg\edu\VectorStack.class
+uvg\edu\LinkListDoub.class
 uvg\edu\ArrayListStack.class
 uvg\edu\App.class
-uvg\edu\StackFactory.class
-uvg\edu\DoubleLinkedList.class
+uvg\edu\ListFactoryImp.class
 uvg\edu\ListStack.class
-uvg\edu\List.class
-uvg\edu\ListFactory.class
+uvg\edu\LinkListDoub$Node.class
 uvg\edu\Calculator.class
